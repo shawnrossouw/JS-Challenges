@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,38 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
+    <div class="drum">
+        <div class="keys">
+            <div class="key" data-key="65">
+                <kbd>A</kbd>
+                <span class="sound">DRUM 1</span>
+            </div>
+
+            <div class="key" data-key="83">
+                <kbd>S</kbd>
+                <span class="sound">DRUM 2</span>
+            </div>
+
+            <div class="key" data-key="68">
+                <kbd>D</kbd>
+                <span class="sound">DRUM 3</span>
+            </div>
+
+            <div class="key" data-key="70">
+                <kbd>F</kbd>
+                <span class="sound">DRUM 4</span>
+            </div>
+        </div>
+    </div>
+
+    <audio data-key="65" src="/sounds/boom.wav"></audio>
+    <audio data-key="83" src="/sounds/kick.wav"></audio>
+    <audio data-key="68" src="/sounds/tink.wav"></audio>
+    <audio data-key="70" src="/sounds/tom.wav"></audio>
+
     <script src="script.js"></script>
 </body>
+
 </html>
