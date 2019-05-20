@@ -1,2 +1,2 @@
 # JS-Challenges
-Javascript challenges each day
+Javascript Challenges each day
