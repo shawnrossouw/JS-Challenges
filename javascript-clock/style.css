@@ -32,7 +32,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 10px 20px 30px 50px  rgb(212, 40, 40);
+    box-shadow: inset 1px 10px 40px 40px  rgb(212, 40, 40);
     margin: 0 1em;
 }
 .clock{
@@ -48,19 +48,26 @@ h1{
 }
 
 .dails{
-    background: transparent;
+    width: 340px;
+    height: 340px;
+    background: rgba(66, 66, 105, 0.5);
     border-radius: 50%;
     position: relative;
+    box-shadow: 5px 5px 30px 10px black;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 .hour-dail{
     width: 10px;
-    height: 130px;
+    height: 100px;
     background: white;
     box-shadow: 3px 3px 10px black;
     position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: rotate(90deg) translateX(-50%);
+    transform-origin: bottom left;
 }
 .minute-dail{
     width: 10px;
@@ -68,22 +75,31 @@ h1{
     background: white;
     box-shadow: 3px 3px 10px black;
     position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: rotate(0deg) translateX(-50%);
+    transform-origin: bottom left;
 }
 .seconds-dail{
-    width: 3px;
-    height: 130px;
+    width: 2px;
+    height: 150px;
     background: white;
     box-shadow: 3px 3px 10px black;
     position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: rotate(-45deg) translateX(-50%);
+    transform-origin: bottom left;
     z-index: 1;
 }
 .center-dail{
-    width: 30px;  
-    height: 30px;
+    width: 40px;  
+    height: 40px;
     background: white;
     border-radius: 50%;
-    box-shadow: 3px 3px 10px black;
+    box-shadow: 2px 2px 10px black;
     z-index: 100;
+    
 }
 .clock-shadow{
     width: 450px;
@@ -93,3 +109,5 @@ h1{
     margin-top: 1.5em;
     box-shadow: 0 0 5px 10px rgba(0, 0, 0, .2);
 }
+
+/*transform-origin: center center;*/
