@@ -1,0 +1,22 @@
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
+
+  .controls {
+    margin-bottom: 50px;
+  }
+
+  input {
+    width: 100px;
+  }
+
+/*# sourceMappingURL=/css-variables-js.e31bb0bc.css.map */
