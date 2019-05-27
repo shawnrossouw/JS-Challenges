@@ -1,3 +1,8 @@
+:root{
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
 *{
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -17,6 +22,15 @@ body {
 
   input {
     width: 100px;
+  }
+  img{
+    padding: var(--spacing);
+    background: var(--base);
+    -webkit-filter: blur(var(--blur));
+            filter: blur(var(--blur));
+  }
+  .hl{
+    color: var(--base);
   }
 
 /*# sourceMappingURL=/css-variables-js.e31bb0bc.css.map */
