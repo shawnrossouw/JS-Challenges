@@ -12,3 +12,4 @@
 #### HTML 5 Canvas
 #### Multi Select
 #### HTML5 custom video player.
+#### Key detection
